@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #7F8076; 
-    --color-secondary: whitesmoke; 
+    --color-primary: black; 
+    --color-secondary: white; 
 
     --color-bg: var(--color-primary); 
     --color-on-bg: var(--color-secondary); 
@@ -25,6 +25,6 @@
     --font-family-mono: 'disket_monoregular';
 
     --text-body: var(--font-family-sans);
-    --text-headings: var(--font-family-mono);
+    --text-headings: var(--font-family-sans);
 
 }
