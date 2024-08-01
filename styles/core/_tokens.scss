@@ -20,11 +20,28 @@
     --font-size-3xl: 5.063rem; 
     --font-size-4xl: 7.594rem; 
 
-    --font-family-sans: 'sk-modernistregular';
-    --font-family-serif: 'serif'; 
-    --font-family-mono: 'disket_monoregular';
+    --font-family-sans: 'Arial';
+    --font-family-serif: 'Times'; 
+    // --font-family-mono: 'Mono';
 
     --text-body: var(--font-family-sans);
     --text-headings: var(--font-family-sans);
+    
+    @include for-phone-only {
+        --spacer-xs: 20px;
+        --spacer-sm: 30px;
+        --spacer-regular: 40px;
+        --spacer-large: 100px; 
+        --spacer-xl: 60px; 
+        --spacer-xxl: 120px
+    }
+
+
+    --spacer-xs: 40px;
+    --spacer-sm: 50px;
+    --spacer-regular: 80px;
+    --spacer-large: 100px; 
+    --spacer-xl: 120px; 
+    --spacer-xxl: 200px;
 
 }

@@ -6,6 +6,7 @@ html, body {
     box-sizing: border-box;
     color: var(--color-on-bg);
     background-color: var(--color-bg);
-    // scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    font-family: var(--font-family-sans);
 }
 
